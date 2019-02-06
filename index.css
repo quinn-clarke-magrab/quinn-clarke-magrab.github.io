@@ -3,24 +3,53 @@
  * COMP 20
  * Assignment 1
  **********************/
- h2 {
- 	text-align: center;
- 	background-color:#417dc1;
- 	font-family: "Helvetica";
- 	padding: 20px;
- 	color: #8B4513 ;
- 	border: double;
- 	border-width: 10px;
- 	border-color: #8B4513 ; /*#0000FF;*/
+ body {
+ 	background-color: #8d9db6;
  }
 
-#background {
+ h2 {
+ 	margin: 15px 400px;
+ 	text-align: center;
+ 	background-color: #f1e3dd;
+ 	font-family: "Courier New";
+ 	padding: 20px;
+ 	color: #667292;
+ 	border: solid;
+ 	border-width: 5px;
+ 	border-color: #667292;
+ }
+
+ p {
+ 	font-family: "Courier New";
+ 	padding: 50px;
+ 	margin: -50px 100px;
+ 	font-size: 20px;
+ 	color: #667292;
+ 	background-color: #f1e3dd;
+ 	border: solid;
+ 	border-width: 5px;
+ 	border-color: #667292;
+ }
+
+ p:hover {
+ 	background-color: #8d9db6;
+ }
+
+ #selfie {
+ 	display: block;
+ 	text-align: center;
+ 	height: 450px;
+ 	margin-left: auto; 
+ 	margin-right: auto;
+ }
+
+/*#background {
 	background-image: url("me.jpg");
-	height: 600px;
+	height: 500px;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
-}
+}*/
 
 #left {
 	text-align: center;
@@ -29,11 +58,6 @@
 	padding-top: 100px;
 	padding-bottom: 100px; 
 }
-
-/*#center {
- 	margin-left: 33%;
- 	margin-right: 33%;
-}*/
 
 #right {
 	text-align: center;
