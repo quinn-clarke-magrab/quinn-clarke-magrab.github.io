@@ -1,0 +1,47 @@
+/**********************
+ * Quinn Clarke-Magrab
+ * COMP 20
+ * Assignment 1
+ **********************/
+ h2 {
+ 	text-align: center;
+ 	background-color:#417dc1;
+ 	font-family: "Helvetica";
+ 	padding: 20px;
+ 	color: #8B4513 ;
+ 	border: double;
+ 	border-width: 10px;
+ 	border-color: #8B4513 ; /*#0000FF;*/
+ }
+
+#background {
+	background-image: url("me.jpg");
+	height: 600px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#left {
+	text-align: center;
+	width: 50%;
+	float: left;
+	padding-top: 100px;
+	padding-bottom: 100px; 
+}
+
+/*#center {
+ 	margin-left: 33%;
+ 	margin-right: 33%;
+}*/
+
+#right {
+	text-align: center;
+	margin-left: 50%;
+	padding-top: 100px;
+	padding-bottom: 100px; 
+}
+
+.clear {
+	clear: both;
+}
