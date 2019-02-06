@@ -1,0 +1,47 @@
+/**********************
+ * Quinn Clarke-Magrab
+ * COMP 20
+ * Assignment 1
+ **********************/
+
+h1 {
+	text-align: center;
+}
+
+h1, h3, h4, p {
+	font-family: "Helvetica";
+	color: #667292;
+}
+
+h3 {
+	border-bottom: solid;
+	border-color: #667292;
+}
+
+body {
+	background-color: #f1e3dd;
+}
+
+.verticalStrip {
+	position: fixed; 
+	top: 0; 
+	left: 0; 
+	width: 200px; 
+	background-color: #bccad6; 
+	height: 100%;
+}
+
+.content { 
+	padding-left: 250px;
+}
+
+#education {
+	margin-top: 60px;
+}
+
+#educationBody {
+	margin-bottom: 50px;
+}
+
+
+
