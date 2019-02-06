@@ -11,6 +11,7 @@ h1 {
 h1, h3, h4, p {
 	font-family: "Helvetica";
 	color: #667292;
+	margin-right: 50px;
 }
 
 h3 {
@@ -22,12 +23,16 @@ body {
 	background-color: #f1e3dd;
 }
 
+.italics {
+	font-style: italic;
+}
+
 .verticalStrip {
 	position: fixed; 
 	top: 0; 
 	left: 0; 
 	width: 200px; 
-	background-color: #bccad6; 
+	background-color: #667292; 
 	height: 100%;
 }
 
@@ -39,9 +44,10 @@ body {
 	margin-top: 60px;
 }
 
-#educationBody {
+#educationBody, #experienceBody, #skillsBody, #leadershipBody {
 	margin-bottom: 50px;
 }
+
 
 
 
