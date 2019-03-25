@@ -9,29 +9,42 @@
 	<head>
 		<title>My Portfolio</title>
 		<meta charset="utf-8">
+		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    	<link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet'>
 		<link rel="stylesheet" href="index.css"/>
+		<script type="text/javascript">
+			var pics = [];
+			for (var i = 0; i < 10; i++) {
+				pics[i] = "ch/" + (i + 86) + ".png";
+			}
+
+			function picture() {
+				var random = Math.floor((Math.random() * 10));
+				pic = document.getElementById("picture");
+				pic.innerHTML = "<img src=" + pics[random] + " alt='the best comic' id='pic'>";
+				caption = document.getElementById("caption");
+				caption.innerHTML = "<p>July 11th, 19" + (random + 86) + "</p>";
+			}
+		</script>
 	</head>
 
 
 	<body>
-		<div class="verticalStrip"></div>
+		<div id="header">
+        	<ul class="bar">
+                <li><a href="bio.html">Bio</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+        	</ul>
+    	</div>
 
-		<div class="content">
-			<h2>Quinn Clarke-Magrab</h2>
-			<img src="me.jpg" alt="A handsome young man" id="selfie"/>
-			<div id="container">
+    	<h2 id="title">Quinn Clarke-Magrab</h2>
 
-				<div id="left">
-					<p><a href="bio.html">Bio</a></p>
-				</div>
-
-				<div id="right">
-					<p><a href="resume.html">Resume</a></p>
-				</div>
-
-				<div class="clear"></div>
-			</div>
-		</div>
+    	<!-- Calvin and Hobbes photos -->
+    	<button onclick="picture()">Random Birthday Calvin and Hobbes Comic</button>
+    	<div id="picture">
+    	</div>
+    	<div id="caption"></div>
 	</body>
 
 
