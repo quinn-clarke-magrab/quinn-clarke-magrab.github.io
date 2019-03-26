@@ -3,43 +3,79 @@
  * COMP 20
  * Assignment 1
  **********************/
+html, body {
+	margin:0;
+	padding:0;
+}
+
  body {
- 	background-color: #f1e3dd;
+ 	background-color: #E1EFF6;
  }
 
-h2 {
+h1 {
  	font-family: "Merriweather", sans-serif;
  	text-align: center;
  }
 
  p {
+ 	font-family: "Merriweather", sans-serif;
+ 	font-size: 18px;
  	text-align: center;
+ 	margin-left: 25%;
+ 	margin-right: 25%;
+ }
+
+ #bio:hover {
+ 	color: #C4CAD0;
  }
 
  button {
+ 	display: block;
  	margin-left: auto;
   	margin-right: auto;
-  	background-color: #4CAF50; /* Green */
-  	border: none;
+  	margin-bottom: 20px;
+  	margin-top: 20px;
+  	background-color: #022B3A;
   	color: white;
   	padding: 15px 32px;
   	text-decoration: none;
-  	display: inline-block;
+  	text-align: center;
   	font-size: 16px;
+ }
+
+ button:hover {
+ 	background-color: #C4CAD0;
+ 	color: #022B3A;
+ }
+
+ #me {
+ 	display: block;
+ 	margin-left: auto;
+  	margin-right: auto;
+  	height: 350px;
+  	border-radius: 50%;
+ }
+
+ #profile {
+ 	background-image: url("blur-bg.jpg");
+ 	background-color: #ffffff;
+ 	background-size: cover;
+ 	padding-top: 20px;
+ 	padding-bottom: 20px;
  }
 
 /* Nav Bar */
 ul {
 	font-family: "Merriweather", sans-serif;
-    color: black;
     font-weight: 200;
+    background-color: #C4CAD0;
+    background-clip: padding-box;
     letter-spacing: 3px;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
     text-align:center;
-    background-color: white;
 }
 
 li {
@@ -48,13 +84,13 @@ li {
 
 li a {
 	display: inline-block;
-	color: black;
+	color: #022B3A;
 	text-decoration: none;
 	padding: 40px;
 }
 
 li a:hover {
-	color: #9FD8D8;
+	color: #E1EFF6;
 }
 /* Nav Bar */
 
@@ -62,5 +98,5 @@ li a:hover {
 	display: block;
 	margin-left: auto;
   	margin-right: auto;
-  	width: 75%;
+  	width: 50%;
 }
